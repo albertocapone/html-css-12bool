@@ -1,0 +1,53 @@
+.blackboard{
+  max-width: 900px;
+  height: 450px;
+  border: 16px solid #b8c0cb;
+  margin: 0 auto;
+  background-image: url("img/sughero.jpg");
+  background-size: 100% 100%;
+}
+
+.spazio.col-12{
+  background-color: inherit;
+  height: 160px;
+}
+
+.spazio.col-2{
+  background-color: inherit;
+  height: 200px;
+}
+
+.todo{
+  position: relative;
+  background-color: inherit;
+  height: 200px;
+  /* border: 1px solid black; */
+}
+
+
+.foto{
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.puntina{
+  width: 46px;
+  height: auto;
+  position: absolute;
+  top: -7%;
+  left: 42%;
+}
+
+.scritta{
+  width: 144px;
+  height: auto;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: rotate(-28deg);
+}
+
+.spazio, .todo{
+  border: 0;
+}
