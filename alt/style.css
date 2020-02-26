@@ -1,8 +1,12 @@
+body{
+  background-image: url("img/vintage.jpg");
+  background-size: cover;
+}
+
 .blackboard{
   max-width: 900px;
   height: 450px;
-  border: 16px solid #b8c0cb;
-  margin: 0 auto;
+  border: 16px solid #4a2f2d;
   background-image: url("img/sughero.jpg");
   background-size: 100% 100%;
 }
@@ -12,35 +16,25 @@
   height: 160px;
 }
 
-.spazio.col-2{
-  background-color: inherit;
-  height: 200px;
-}
-
-.todo{
-  position: relative;
-  background-color: inherit;
-  height: 200px;
-  /* border: 1px solid black; */
-}
-
 
 .foto{
+  position: relative;
   background-color: white;
   border: 1px solid black;
   padding: 5px;
+  height: 164px;
 }
 
 .puntina{
   width: 46px;
   height: auto;
   position: absolute;
-  top: -7%;
-  left: 42%;
+  top: -9%;
+  left: 38%;
 }
 
 .scritta{
-  width: 144px;
+  width: 133px;
   height: auto;
   position: absolute;
   top: 35%;
